@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://c4cyber.com.au/sitemap.xml

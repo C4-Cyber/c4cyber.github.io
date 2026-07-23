@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <!-- Progressive enhancement: mark JS as available so reveal animations only hide content when JS can un-hide it -->
+  <script>document.documentElement.className += " js";</script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1T3VYWV898"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1T3VYWV898');
+  </script>
+  <title>C4 Cyber | Security Testing &amp; Cyber Monitoring</title>
+  <meta name="description" content="C4 Cyber is a boutique Australian cyber security firm specialising in penetration testing, red teaming, breach simulation and continuous cyber monitoring. AGSVA-cleared, OSCP-certified specialists." />
+  <meta name="author" content="C4 Cyber Pty Ltd" />
+  <link rel="canonical" href="https://c4cyber.com.au/" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="C4 Cyber | Security Testing &amp; Cyber Monitoring" />
+  <meta property="og:description" content="Boutique Australian cyber security. Penetration testing, red teaming, breach simulation and continuous monitoring by AGSVA-cleared specialists." />
+  <meta property="og:url" content="https://c4cyber.com.au/" />
+  <meta property="og:image" content="https://c4cyber.com.au/assets/img/logo-mark.png" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/img/favicon-180.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Organisation structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "C4 Cyber Pty Ltd",
+    "alternateName": "C4 Cyber",
+    "url": "https://c4cyber.com.au",
+    "logo": "https://c4cyber.com.au/assets/img/logo-mark.png",
+    "description": "Boutique Australian cyber security firm specialising in penetration testing, red teaming, breach simulation and cyber monitoring.",
+    "email": "contact@c4cyber.com.au",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Level 17, Tower 3, 300 Barangaroo Avenue",
+      "addressLocality": "Sydney",
+      "addressRegion": "NSW",
+      "postalCode": "2000",
+      "addressCountry": "AU"
+    },
+    "founder": { "@type": "Person", "name": "Adam Clinch" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a class="brand" href="#top" aria-label="C4 Cyber home">
+        <img class="brand__mark" src="assets/img/logo-mark.png" alt="" width="40" height="40" />
+        <span class="brand__name">C4&nbsp;Cyber</span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#ai">AI</a>
+        <a href="#case-study">Case&nbsp;Study</a>
+        <a href="#about">About</a>
+        <a class="btn btn--sm" href="#contact">Get in touch</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="nav__mobile" id="mobileMenu" aria-label="Mobile">
+      <a href="#services">Services</a>
+      <a href="#approach">Approach</a>
+      <a href="#ai">AI</a>
+      <a href="#case-study">Case Study</a>
+      <a href="#about">About</a>
+      <a href="#contact">Get in touch</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow reveal">Boutique Australian Cyber Security</p>
+        <h1 class="hero__title reveal">
+          We breach it first<span class="accent">,</span><br />so attackers can't.
+        </h1>
+        <p class="hero__lead reveal">
+          C4 Cyber is a specialist security testing firm. We think like real adversaries -
+          penetration testing, red teaming and breach simulation - then translate what we
+          find into clear, implementable steps that harden your business.
+        </p>
+        <div class="hero__cta reveal">
+          <a class="btn btn--lg" href="#contact">Request an assessment</a>
+          <a class="btn btn--ghost btn--lg" href="#services">Explore services</a>
+        </div>
+        <ul class="hero__badges reveal" aria-label="Credentials">
+          <li>OSCP certified</li>
+          <li>AGSVA cleared</li>
+          <li>MITRE ATT&amp;CK &middot; OWASP &middot; PTES</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ STATS / TRUST ============ -->
+    <section class="stats" aria-label="Track record">
+      <div class="container stats__grid">
+        <div class="stat reveal"><span class="stat__num">OSCP</span><span class="stat__label">Offensive Security Certified Professional</span></div>
+        <div class="stat reveal"><span class="stat__num">4%</span><span class="stat__label">of Australia's GDP handled by systems we've breached in testing</span></div>
+        <div class="stat reveal"><span class="stat__num">$1B+</span><span class="stat__label">annual value processed by systems we've assessed</span></div>
+        <div class="stat reveal"><span class="stat__num">100%</span><span class="stat__label">Australian citizens, minimum baseline clearance</span></div>
+      </div>
+    </section>
+
+    <!-- ============ CLIENTS ============ -->
+    <section class="clients" aria-label="Sectors we serve">
+      <div class="container">
+        <p class="clients__label">Trusted across highly critical environments</p>
+        <ul class="clients__list">
+          <li>Australian Federal Government</li>
+          <li>NSW &amp; VIC State Governments</li>
+          <li>Critical Infrastructure</li>
+          <li>Financial Services</li>
+          <li>Insurance</li>
+          <li>Universities</li>
+          <li>Legal Firms</li>
+          <li>Multinationals</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">What we do</p>
+          <h2>Security services, tailored to your real risk</h2>
+          <p class="section__sub">
+            Every engagement starts with a conversation about what matters most to your business,
+            then simulates the attack paths that actually threaten it.
+          </p>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">&#9678;</div>
+            <h3>Cyber Security Assessment</h3>
+            <p>A tailored assessment built around your concerns. We map the attack points you could realistically face and quantify the actual risk across a suite of scenarios.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">&#8982;</div>
+            <h3>Penetration Testing</h3>
+            <p>Internal and external testing that simulates real-world adversaries against your web apps, networks and cloud - grounded in MITRE ATT&amp;CK, OWASP and PTES, plus original research on your specific stack.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">&#9096;</div>
+            <h3>Breach Simulation</h3>
+            <p>Assume you're already breached. We test how far an attacker moves once inside - stolen credentials, a lost laptop, malware, rogue devices or a compromised B2B partner.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">&#9873;</div>
+            <h3>Red Team Assessment</h3>
+            <p>Full-scope adversary emulation using any means necessary - including physical access, badge cloning and social engineering - to reach your most sensitive environments and prove business impact, safely.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">&#9673;</div>
+            <h3>OE Platform Monitoring</h3>
+            <p>Continuous monitoring of your cloud and internet-facing infrastructure. When a change is detected, a C4 analyst reviews it - and if it creates exposure, you're notified.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon" aria-hidden="true">&#9707;</div>
+            <h3>Vulnerability Management</h3>
+            <p>Ad-hoc or scheduled vulnerability scanning with prioritised, practical remediation guidance so the issues attackers are most likely to exploit get fixed first.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ APPROACH / METHODOLOGY ============ -->
+    <section class="section section--alt" id="approach">
+      <div class="container approach">
+        <div class="approach__intro reveal">
+          <p class="eyebrow">Our approach</p>
+          <h2>Recognised frameworks. Original research.</h2>
+          <p class="section__sub">
+            We combine the industry's leading methodologies with hands-on research into the
+            actual technologies you run - which regularly uncovers techniques specific to
+            your environment.
+          </p>
+          <a class="btn btn--ghost" href="#contact">Talk through your scope</a>
+        </div>
+        <div class="approach__frameworks">
+          <div class="framework reveal">
+            <h3>MITRE ATT&amp;CK&reg;</h3>
+            <p>A knowledge base of real-world adversary tactics and techniques - from initial access through privilege escalation, lateral movement and impact.</p>
+          </div>
+          <div class="framework reveal">
+            <h3>OWASP</h3>
+            <p>The de-facto standard for web application security testing, covering the most prevalent and damaging web vulnerabilities.</p>
+          </div>
+          <div class="framework reveal">
+            <h3>PTES</h3>
+            <p>The Penetration Test Execution Standard - a rigorous framework for managing penetration tests and red team engagements end to end.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ AI / CVP ============ -->
+    <section class="section" id="ai">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">AI-augmented testing</p>
+          <h2>We use AI in our testing</h2>
+          <p class="section__sub">
+            Frontier AI models are part of how we work. They let us cover more ground, reason
+            about complex attack paths faster, and concentrate our time where human judgement
+            genuinely matters. Every engagement is still scoped, led, validated and reported by
+            a human tester - AI accelerates the work, it does not replace the operator.
+          </p>
+        </header>
+
+        <div class="cvp reveal">
+          <div class="cvp__head">
+            <span class="cvp__badge">Verified</span>
+            <h3>Anthropic Cyber Verification Program (CVP)</h3>
+          </div>
+          <p>
+            C4 Cyber is a member of Anthropic's Cyber Verification Program, an application-based
+            vetting program that grants approved security organisations access to Claude's
+            dual-use cybersecurity capabilities.
+          </p>
+          <p>
+            Capabilities such as vulnerability exploitation analysis, offensive security tooling
+            and adversary simulation are restricted by default. Anthropic reviews each applicant
+            organisation, what it builds and how it intends to use the access, then lifts those
+            restrictions only for verified teams doing legitimate defensive work.
+          </p>
+          <p class="cvp__note">
+            Acceptance into the program means our use of AI in penetration testing is vetted,
+            scoped to defensive security work, and governed by Anthropic's security,
+            confidentiality and responsible-use requirements.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CASE STUDY ============ -->
+    <section class="section section--alt" id="case-study">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Case study</p>
+          <h2>Chaining a path to the critical data</h2>
+        </header>
+        <div class="case reveal">
+          <p class="case__context">
+            A large organisation engaged us after a non-hacking information breach. The remedial
+            plan required a penetration test of the system involved in the leak.
+          </p>
+          <ol class="case__steps">
+            <li><span>01</span> We established with the client that the secure data on <em>Server&nbsp;A</em> was the critical data that had to be protected.</li>
+            <li><span>02</span> Using open-source intelligence, we discovered additional internet-facing servers and proposed an attacker's path via <em>Server&nbsp;B</em>.</li>
+            <li><span>03</span> We gained access to Server&nbsp;B over the internet and escalated to administrator.</li>
+            <li><span>04</span> From there we moved laterally to Server&nbsp;A and demonstrated access to the secure data - exactly as a real adversary would.</li>
+            <li><span>05</span> Our report delivered meaningful security-architecture advice to harden every step of that path. The client implemented the measures and we validated each one.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__body reveal">
+          <p class="eyebrow">About C4 Cyber</p>
+          <h2>Integrity and trust, in the highest-stakes environments</h2>
+          <p>
+            C4 Cyber is a boutique cyber security firm delivering practical, affordable and
+            implementable security solutions. Our people are trusted to work in highly critical
+            environments and for clients requiring special clearances - all C4 Cyber staff
+            are Australian citizens holding a minimum baseline clearance.
+          </p>
+          <p>
+            Integrity and trust are core values in everything we do. We're passionate about cyber
+            security and thrive on the challenge of an ever-evolving threat landscape.
+          </p>
+        </div>
+        <aside class="founder reveal" aria-label="Founder">
+          <p class="founder__kicker">Founder &amp; Managing Director</p>
+          <h3 class="founder__name">Adam Clinch <span class="founder__cert">OSCP</span></h3>
+          <p class="founder__role">Director &amp; Principal Consultant</p>
+          <p>
+            A seasoned Security Architect and Network Engineer, Adam has spent his career in
+            IT services and security. He specialises in attacking networks from the internet -
+            with the majority of engagements resulting in a complete breach of the internal
+            network.
+          </p>
+          <p>
+            He's achievement-driven, thrives on lateral movement and privilege escalation, and
+            is known for communicating impact clearly to stakeholders at every level.
+          </p>
+          <a class="founder__linkedin" href="https://www.linkedin.com/in/clinch/" target="_blank" rel="noopener noreferrer" aria-label="Adam Clinch on LinkedIn">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.59 0 4.25 2.36 4.25 5.44v6.3zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+            <span>Connect on LinkedIn</span>
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container contact__inner reveal">
+        <div id="cf-main">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Ready to find out what an attacker could do?</h2>
+          <p class="section__sub">
+            Tell us what you're worried about and we'll build an assessment plan around it.
+            We'll get back to you within one business day.
+          </p>
+
+          <form id="contactForm" class="cform" action="https://api.web3forms.com/submit" method="POST" novalidate>
+            <input type="hidden" name="access_key" value="3388dc33-2bbd-406b-bcbe-c189f8c764a8" />
+            <input type="hidden" name="subject" value="New enquiry from c4cyber.com.au" />
+            <input type="hidden" name="from_name" value="C4 Cyber website" />
+            <!-- Web3Forms native honeypot (checkbox; not touched by browser autofill) -->
+            <input type="checkbox" name="botcheck" class="cform__hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+            <div class="cform__row">
+              <div class="cform__field">
+                <label for="cf-name">Name</label>
+                <input id="cf-name" name="name" type="text" autocomplete="name" required maxlength="120" />
+              </div>
+              <div class="cform__field">
+                <label for="cf-email">Email</label>
+                <input id="cf-email" name="email" type="email" autocomplete="email" required maxlength="160" />
+              </div>
+            </div>
+            <div class="cform__row">
+              <div class="cform__field">
+                <label for="cf-org">Organisation <span class="cform__opt">(optional)</span></label>
+                <input id="cf-org" name="organisation" type="text" autocomplete="organization" maxlength="160" />
+              </div>
+              <div class="cform__field">
+                <label for="cf-phone">Phone <span class="cform__opt">(optional)</span></label>
+                <input id="cf-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="40" />
+              </div>
+            </div>
+            <div class="cform__field">
+              <label for="cf-msg">How can we help?</label>
+              <textarea id="cf-msg" name="message" rows="5" required maxlength="4000"></textarea>
+            </div>
+
+            <div class="cform__actions">
+              <button type="submit" class="btn btn--lg" id="cf-submit">Send enquiry</button>
+              <p class="cform__status" id="cf-status" role="status" aria-live="polite"></p>
+            </div>
+            <p class="cform__fallback">Prefer email? <a href="mailto:contact@c4cyber.com.au?subject=Security%20assessment%20enquiry">contact@c4cyber.com.au</a></p>
+          </form>
+        </div>
+
+        <div id="cf-thanks" class="cform__thanks" hidden aria-live="polite">
+          <div class="cform__thanks-icon" aria-hidden="true">&#10003;</div>
+          <h2>Thanks for contacting us</h2>
+          <p>Your message is on its way. We'll be in touch within one business day.</p>
+          <p class="cform__thanks-ref">Your reference number is<br /><strong id="cf-ref"></strong></p>
+          <p class="cform__thanks-note">Please make a note of this reference and quote it if you follow up.</p>
+          <a class="btn btn--ghost" href="#top" id="cf-back">Back to homepage</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/img/logo-mark.png" alt="" width="36" height="36" />
+        <div>
+          <span class="brand__name">C4 Cyber</span>
+          <p class="footer__tag">Security testing &amp; cyber monitoring</p>
+        </div>
+      </div>
+      <div class="footer__meta">
+        <p><strong>C4 Cyber Pty Ltd</strong></p>
+        <p>Level 17, Tower 3, 300 Barangaroo Avenue<br />Sydney NSW 2000, Australia</p>
+        <p>ABN 81 645 928 614 &middot; ACN 645 928 614</p>
+        <p><a href="mailto:contact@c4cyber.com.au">contact@c4cyber.com.au</a></p>
+      </div>
+    </div>
+    <div class="container footer__bar">
+      <p>&copy; <span id="year">2026</span> C4 Cyber Pty Ltd. All rights reserved.</p>
+      <p><a href="/privacy.html">Privacy Policy</a> &middot; Australian owned &amp; operated</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
